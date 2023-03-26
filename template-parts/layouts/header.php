@@ -26,3 +26,74 @@
 <body class="">
 <!--app-->
 <div id="app" class="uk-height-viewport uk-offcanvas-content uk-overflow-hidden uk-position-relative">
+<header class="header">
+    <nav class="header__top uk-navbar-container uk-navbar-transparent">
+        <div class="uk-container uk-container-large">
+            <div uk-navbar>
+
+                <div class="uk-navbar-left">
+                    <a href="." class="uk-navbar-item uk-logo"><img src="images/logo.png" alt=""></a>
+                </div>
+
+                <div class="uk-navbar-right">
+
+                    <ul class="uk-navbar-nav">
+                        <li>
+                            <a href="#">Services <span uk-navbar-parent-icon></span></a>
+                            <div class="uk-navbar-dropdown">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li class="uk-active"><a href="#">Active</a></li>
+                                    <li><a href="#">Item</a></li>
+                                    <li><a href="#">Item</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#">Price</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+
+                    <a class="uk-navbar-toggle header__top__link" href="">Sign in</a>
+                    <div class="uk-navbar-item">
+                        <a href="" class="uk-button uk-button-primary header__top__btn">Sign up</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <nav class="header__bottom uk-navbar-container">
+        <div class="uk-container uk-container-large">
+            <div uk-navbar>
+
+                <div class="uk-navbar-left">
+
+                    <ul class="uk-navbar-nav">
+                        <li><a href="singlephoto_detail.php">Single photos</a></li>
+                        <li><a href="#">HDR photos</a></li>
+                        <li><a href="#">Flash photos</a></li>
+                        <li><a href="#">Day to dusk </a></li>
+                        <li><a href="#">360 virtual stage</a></li>
+                        <li><a href="#">Virtual staging </a></li>
+                        <li><a href="#">Virtual renovations </a></li>
+                        <li><a href="#">Portrait </a></li>
+                        <li><a href="#">Retouching</a></li>
+                        <li>
+                            <a href="#">More <span uk-navbar-parent-icon></span></a>
+                            <div class="uk-navbar-dropdown">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li class="uk-active"><a href="#">Active</a></li>
+                                    <li><a href="#">Item</a></li>
+                                    <li><a href="#">Item</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+    </nav>
+</header>
