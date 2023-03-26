@@ -21,12 +21,13 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.11/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.11/dist/js/uikit-icons.min.js"></script>
+    <script src="assets/before-after-image-viewer/dist/beforeafter.jquery-1.0.0.min.js"></script>
     <script src="js/app.js?v=<?php echo(time()) ?>"></script>
 </head>
 <body class="">
 <!--app-->
 <div id="app" class="uk-height-viewport uk-offcanvas-content uk-overflow-hidden uk-position-relative">
-<header class="header">
+<header class="header" uk-sticky>
     <nav class="header__top uk-navbar-container uk-navbar-transparent">
         <div class="uk-container uk-container-large">
             <div uk-navbar>
@@ -37,7 +38,7 @@
 
                 <div class="uk-navbar-right">
 
-                    <ul class="uk-navbar-nav">
+                    <ul class="uk-navbar-nav uk-visible@l">
                         <li>
                             <a href="#">Services <span uk-navbar-parent-icon></span></a>
                             <div class="uk-navbar-dropdown">
@@ -53,17 +54,19 @@
                         <li><a href="#">Contact</a></li>
                     </ul>
 
-                    <a class="uk-navbar-toggle header__top__link" href="">Sign in</a>
-                    <div class="uk-navbar-item">
+                    <a class="uk-navbar-toggle header__top__link uk-visible@l" href="">Sign in</a>
+                    <div class="uk-navbar-item uk-visible@l">
                         <a href="" class="uk-button uk-button-primary header__top__btn">Sign up</a>
                     </div>
+
+                    <a class="uk-navbar-toggle uk-hidden@l uk-light" uk-navbar-toggle-icon href="#"></a>
 
                 </div>
 
             </div>
         </div>
     </nav>
-    <nav class="header__bottom uk-navbar-container">
+    <nav class="header__bottom uk-navbar-container uk-visible@l">
         <div class="uk-container uk-container-large">
             <div uk-navbar>
 

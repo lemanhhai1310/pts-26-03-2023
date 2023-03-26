@@ -1,4 +1,10 @@
 .header{
+  &.uk-active{
+    box-shadow: 0px 1px 16px rgba(0, 0, 0, 0.12);
+    &.uk-sticky-below{
+
+    }
+  }
   &__dc1{
     color: #262626;
     text-transform: inherit;
@@ -8,7 +14,6 @@
   }
   &__top{
     background: #45A8D9;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.04);
     &__navItem{
       min-height: 68px;
     }
@@ -46,6 +51,7 @@
     }
   }
   &__bottom{
+    //background: #FFFFFF;
     &__navItem{
       min-height: 38px;
     }
