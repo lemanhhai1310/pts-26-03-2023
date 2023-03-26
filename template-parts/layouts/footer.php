@@ -2,7 +2,7 @@
     <div class="uk-container uk-container-large">
         <div class="uk-section footer__top">
             <div class="" uk-grid>
-                <div class="uk-width-1-3@m">
+                <div class="uk-width-1-3@l">
                     <h4 class="uk-h4 footer__title">DevotedEdit.com</h4>
                     <ul class="footer__list uk-list">
                         <li>
@@ -34,9 +34,9 @@
                         <li><a href="">Gallery</a></li>
                     </ul>
                 </div>
-                <div class="uk-width-expand@m">
+                <div class="uk-width-expand@l">
                     <h4 class="uk-h4 footer__title">Follow us on social media</h4>
-                    <div class="uk-grid-28-m uk-grid-small uk-flex-center uk-flex-left@m" uk-grid>
+                    <div class="uk-grid-28-l uk-grid-small uk-flex-center uk-flex-left@m" uk-grid>
                         <div>
                             <a href="">
                                 <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -107,7 +107,7 @@
 
 
 
-                    <div class="uk-grid-28-m uk-grid-small uk-flex-center uk-flex-left@m" uk-grid>
+                    <div class="uk-grid-28-l uk-grid-small uk-flex-center uk-flex-left@m" uk-grid>
                         <div>
                             <a href="">
                                 <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">

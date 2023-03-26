@@ -29,4 +29,15 @@
       margin-top: #{$x}px;
     }
   }
+
+  $max:40;
+  $min:20;
+  &__#{$max}-#{$min}{
+    &:nth-child(n+2){
+      margin-top: #{$min}px;
+      @include media-breakpoint-up('m'){
+        margin-top: #{$max}px;
+      }
+    }
+  }
 }

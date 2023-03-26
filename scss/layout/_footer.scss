@@ -35,10 +35,16 @@
           font-size: 16px;
         }
       }
+      &:nth-child(n+2){
+        margin-top: 10px;
+      }
     }
   }
   &__list{
     >li{
+      &:nth-child(n+2){
+        margin-top: 20px;
+      }
       color: #262626;
       font-size: 14px;
       @include media-breakpoint-up('m'){
