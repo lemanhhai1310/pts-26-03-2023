@@ -1,0 +1,28 @@
+.faq{
+  &__title{
+    color: #F1F509;
+    font-weight: 700;
+    font-size: 48px;
+    @include fluidx(48px,32px,font-size);
+    line-height: 1.33;
+  }
+  &__accordion{
+    &__li{
+      &:nth-child(n+2){
+        margin-top: 8px;
+      }
+    }
+    &__title{
+      padding: 16px 20px;
+      background: #FFFFFF;
+      border-radius: 4px;
+      color: #262626;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    &__content{
+      color: #fff;
+      margin-top: 10px;
+    }
+  }
+}
