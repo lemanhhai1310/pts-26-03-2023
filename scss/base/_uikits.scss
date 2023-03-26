@@ -1,0 +1,25 @@
+.uk{
+  &-overlay{
+    &-primary{
+      background: rgba(0, 0, 0, 0.6);
+    }
+  }
+  &-container{
+    &-large{
+      max-width: 1344px;
+    }
+  }
+  &-height{
+    &-min{
+      &-small{
+        min-height: 150px;
+      }
+      &-medium{
+        min-height: 300px;
+      }
+      &-large{
+        min-height: 450px;
+      }
+    }
+  }
+}

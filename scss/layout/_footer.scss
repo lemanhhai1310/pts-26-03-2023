@@ -1,0 +1,57 @@
+.footer{
+  background: linear-gradient(117.69deg, #77C1F2 -33.39%, #EBEE6A 145.55%);
+  &__top{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    @include media-breakpoint-up('m'){
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+  }
+  &__bottom{
+    border-top: 1px solid rgba(217, 217, 217, 0.5);
+    @include media-breakpoint-up('m'){
+      //padding-top: 28px;
+      //padding-bottom: 28px;
+    }
+  }
+  &__title{
+    //font-size: 24px;
+    //font-size: 22px;
+    @include fluidx(24px,21px,font-size);
+    line-height: 1;
+    color: #262626;
+    font-weight: 600;
+    font-family: $font-primary;
+    @include media-breakpoint-up('m'){
+      margin-bottom: 40px;
+    }
+  }
+  &__nav{
+    >li{
+      >a{
+        color: #262626;
+        @include media-breakpoint-up('m'){
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  &__list{
+    >li{
+      color: #262626;
+      font-size: 14px;
+      @include media-breakpoint-up('m'){
+        font-size: 16px;
+      }
+      strong{
+        font-weight: 600;
+      }
+    }
+  }
+  &__txtCopyright{
+    font-size: 14px;
+    color: rgba(38, 38, 38, 0.6);
+    line-height: 1;
+  }
+}
