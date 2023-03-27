@@ -62,6 +62,7 @@
           @extend .header__bottom__navItem;
           @extend .header__dc1;
           padding: 0 16px;
+          &[aria-expanded='true'],
           &:hover{
             color: #fff;
             background-color: #45A8D9;

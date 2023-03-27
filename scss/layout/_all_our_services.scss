@@ -38,6 +38,10 @@
       line-height: 12px;
       color: #262626;
       text-transform: uppercase;
+      .uk-slider &{
+        font-size: 14px;
+        min-height: 32px;
+      }
     }
     &__txt{
       color: #363636;

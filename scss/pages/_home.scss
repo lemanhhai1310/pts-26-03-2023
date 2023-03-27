@@ -1,4 +1,36 @@
 .home{
+  &__title{
+    @extend .service__title;
+    padding: 0;
+    line-height: 1.5;
+  }
+  &__txt{
+    color: #363636;
+    line-height: 1.75;
+    font-size: 16px;
+  }
+  &__slider{
+    &__card{
+      border-radius: 8px;
+    }
+    &__txt{
+      color: #262626 !important;
+      text-transform: uppercase;
+      line-height: 1;
+      //font-size: 24px;
+      @include fluidx(24px,20px,font-size);
+      font-weight: 500;
+    }
+    &__price{
+      @extend .home__slider__txt;
+      color: #E70000 !important;
+    }
+    &__body{
+      @include media-breakpoint-up('l'){
+        padding: 20px;
+      }
+    }
+  }
   &__sendPhoto{
     &__card{
       border-radius: 8px;

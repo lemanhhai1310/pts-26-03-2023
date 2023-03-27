@@ -40,4 +40,15 @@
       }
     }
   }
+
+  $max:20;
+  $min:10;
+  &__#{$max}-#{$min}{
+    &:nth-child(n+2){
+      margin-top: #{$min}px;
+      @include media-breakpoint-up('m'){
+        margin-top: #{$max}px;
+      }
+    }
+  }
 }

@@ -1,7 +1,90 @@
 <?php $data["title"] = "Home-Page"; ?>
 <?php $bodyClass = '' ?>
 <?php require "template-parts/layouts/header.php"; ?>
+<div class="uk-position-relative uk-background-norepeat uk-background-center-center uk-background-cover" data-src="images/Rectangle2.png" uk-img>
+    <div class="uk-overlay uk-overlay-primary uk-position-cover"></div>
+    <div class="uk-section uk-position-relative">
+        <div class="uk-container uk-container-large">
+            <div class="uk-light">
+                <h3 class="uk-h3 uk-text-center">Make your photos more beautiful and professional at unbeatable prices</h3>
+                <div class="uk-text-center item__20-10">DevotedEdit offers exceptional services - speed, control and quality for images.</div>
+            </div>
+            <div class="item__40-20 uk-light" uk-slider="draggable: false;autoplay: true">
+
+                <div class="uk-position-relative uk-visible-toggle" tabindex="-1">
+
+                    <div class="uk-slider-container">
+                        <ul class="uk-slider-items uk-child-width-1-1 uk-child-width-1-2@m uk-grid-8" uk-grid>
+                            <?php for ($i=1;$i<=10;$i++): ?>
+                                <li>
+                                    <div class="home__slider__card uk-card uk-background-default uk-border-rounded">
+                                        <div class="beforeAfter uk-position-relative">
+                                            <div class="uk-height-1-1">
+                                                <img src="images/img_before.png" />
+                                                <span class="service__card__label uk-position-top-left uk-position-small">Before</span>
+                                            </div>
+                                            <div class="uk-height-1-1">
+                                                <img src="images/img_after.png" />
+                                                <span class="service__card__label uk-position-top-right uk-position-small">After</span>
+                                            </div>
+                                        </div>
+                                        <div class="uk-padding-small home__slider__body">
+                                            <div class="uk-grid-10" uk-grid>
+                                                <div>
+                                                    <div class="home__slider__txt">Image enhancement</div>
+                                                </div>
+                                                <div>
+                                                    <div class="home__slider__price">US$1.60</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            <?php endfor; ?>
+                        </ul>
+                    </div>
+
+                    <div class="uk-hidden@s uk-light">
+                        <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                    </div>
+
+                    <div class="uk-visible@s">
+                        <a class="uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                    </div>
+
+
+                </div>
+
+                <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="uk-section">
+    <div class="uk-container uk-container-large">
+        <h2 class="uk-h2 home__title uk-text-center">
+            Professional Photo Editing, Virtual Staging, Floor Plan Redraws, & Renders at Unbeatable Prices
+        </h2>
+        <div class="item__40-20 uk-child-width-expand@l uk-child-width-1-2 uk-grid-small uk-grid-20-l" uk-grid>
+            <?php for ($i=1;$i<=8;$i++): ?>
+            <div>
+                <div class="uk-cover-container">
+                    <img src="images/noimage.jpg" alt="" uk-cover="">
+                    <canvas width="300" height="200"></canvas>
+                </div>
+                <div class="item__20-10 uk-text-center home__txt">Lorem Ipsum is simply dummy text of the printing </div>
+            </div>
+            <?php endfor; ?>
+        </div>
+    </div>
+</div>
 <?php require "template-parts/layouts/all_our_services.php"; ?>
+<div class="uk-section">
+
+</div>
 <div class="uk-position-relative uk-background-norepeat uk-background-center-center uk-background-cover" data-src="images/bg1.png" uk-img>
     <div class="uk-overlay uk-overlay-primary uk-position-cover"></div>
     <div class="uk-position-relative uk-section-small uk-position-z-index">
