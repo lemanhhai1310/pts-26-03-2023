@@ -30,8 +30,41 @@
     }
   }
 
+  $max:80;
+  $min:40;
+  &__#{$max}-#{$min}{
+    &:nth-child(n+2){
+      margin-top: #{$min}px;
+      @include media-breakpoint-up('m'){
+        margin-top: #{$max}px;
+      }
+    }
+  }
+
+  $max:60;
+  $min:30;
+  &__#{$max}-#{$min}{
+    &:nth-child(n+2){
+      margin-top: #{$min}px;
+      @include media-breakpoint-up('m'){
+        margin-top: #{$max}px;
+      }
+    }
+  }
+
   $max:40;
   $min:20;
+  &__#{$max}-#{$min}{
+    &:nth-child(n+2){
+      margin-top: #{$min}px;
+      @include media-breakpoint-up('m'){
+        margin-top: #{$max}px;
+      }
+    }
+  }
+
+  $max:32;
+  $min:16;
   &__#{$max}-#{$min}{
     &:nth-child(n+2){
       margin-top: #{$min}px;

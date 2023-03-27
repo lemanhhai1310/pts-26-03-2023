@@ -82,8 +82,124 @@
     </div>
 </div>
 <?php require "template-parts/layouts/all_our_services.php"; ?>
-<div class="uk-section">
-
+<div class="uk-section home__block uk-background-norepeat uk-background-bottom-center">
+    <div class="uk-container uk-container-large">
+        <h2 class="uk-h2 home__title uk-text-center">
+            Prestige customers
+        </h2>
+        <div class="home__txt uk-text-center item__20-10">Always brings professionalism and is trusted by leading companies around the world</div>
+    </div>
+    <div class="item__60-30">
+        <div class="slider__container">
+            <div class="slider__container__wrapper c1">
+                <div class="uk-grid-32-m uk-grid-16 uk-flex-nowrap uk-flex-middle" style="width: max-content" uk-grid>
+                    <?php
+                    $data1 = array(
+                        'images/brand/image3.png',
+                        'images/brand/image4.png',
+                        'images/brand/image5.png',
+                        'images/brand/image6.png',
+                        'images/brand/image7.png',
+                        'images/brand/image8.png',
+                        'images/brand/image9.png',
+                        'images/brand/image10.png',
+                        'images/brand/image11.png',
+                        'images/brand/image12.png',
+                        'images/brand/image13.png',
+                        'images/brand/image14.png',
+                        'images/brand/image73.png',
+                        'images/brand/image74.png',
+                        'images/brand/image75.png',
+                        'images/brand/image76.png',
+                    );
+                    foreach ($data1 as $value): ?>
+                        <div>
+                            <img src="<?= $value ?>" alt="">
+                        </div>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+        </div>
+        <div class="slider__container item__32-16">
+            <div class="slider__container__wrapper c2">
+                <div class="uk-grid-32-m uk-grid-16 uk-flex-nowrap uk-flex-middle" style="width: max-content" uk-grid>
+                    <?php
+                    $data2 = array(
+                        'images/brand/image3.png',
+                        'images/brand/image4.png',
+                        'images/brand/image5.png',
+                        'images/brand/image6.png',
+                        'images/brand/image7.png',
+                        'images/brand/image8.png',
+                        'images/brand/image9.png',
+                        'images/brand/image10.png',
+                        'images/brand/image11.png',
+                        'images/brand/image12.png',
+                        'images/brand/image13.png',
+                        'images/brand/image14.png',
+                        'images/brand/image73.png',
+                        'images/brand/image74.png',
+                        'images/brand/image75.png',
+                        'images/brand/image76.png',
+                    );
+                    foreach ($data2 as $value): ?>
+                        <div>
+                            <img src="<?= $value ?>" alt="">
+                        </div>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-container uk-container-large item__80-40">
+        <div class="uk-grid-40-l uk-child-width-1-2@l uk-flex-bottom" uk-grid>
+            <div>
+                <img src="images/Group9.png" alt="">
+            </div>
+            <div uk-scrollspy="target: .home__block__card; cls: uk-animation-slide-right-medium; delay: 500; repeat: true">
+                <h2 class="uk-h2 home__title">
+                    How we work?
+                </h2>
+                <div class="home__txt item__40-20">work professionally and bring the best quality products.</div>
+                <?php
+                $data = array(
+                    array(
+                        'img' => 'images/add-image1.png',
+                        'txt' => '1. Send us 1 test image & your editing requirements. We will get back to you with the result and the price quote within 24 hours.',
+                    ),
+                    array(
+                        'img' => 'images/add-to-cart1.png',
+                        'txt' => '2. If you are satisfied with the result and agreed on the price offered per image, you can now start sending us your orders via email.',
+                    ),
+                    array(
+                        'img' => 'images/upload1.png',
+                        'txt' => '3. Upload your photos for editing through GoogleDrive, WeTransfer or Dropbox, send us the link and we will work with it accordingly.',
+                    ),
+                    array(
+                        'img' => 'images/laptop1.png',
+                        'txt' => '4. Send your payment. Get the photo orders back within 24 hours and begin using them right away. We also offer free revision.',
+                    ),
+                );
+                foreach ($data as $k=>$v): ?>
+                <div class="home__block__card uk-card uk-card-default uk-padding-small item__20">
+                    <div class="uk-flex-middle uk-grid-small uk-grid-30-m" uk-grid>
+                        <div class="uk-width-auto">
+                            <img src="<?= $v['img'] ?>" alt="">
+                        </div>
+                        <div class="uk-width-expand">
+                            <div class="home__block__card__txt"><?= $v['txt'] ?></div>
+                        </div>
+                    </div>
+                </div>
+                <?php endforeach; ?>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="home__block1 uk-section-small uk-background-norepeat uk-background-bottom-right" data-src="images/Maskgroup.png" uk-img>
+    <div class="uk-container uk-container-large">
+        1
+    </div>
 </div>
 <div class="uk-position-relative uk-background-norepeat uk-background-center-center uk-background-cover" data-src="images/bg1.png" uk-img>
     <div class="uk-overlay uk-overlay-primary uk-position-cover"></div>

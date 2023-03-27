@@ -9,11 +9,11 @@
                         <div class="uk-width-1-2@m uk-flex-last@m">
                             <div class="beforeAfter uk-position-relative">
                                 <div class="uk-height-1-1">
-                                    <img src="images/dark.jpg" />
+                                    <img src="images/img_before.png" />
                                     <span class="service__card__label uk-position-top-left uk-position-small">Before</span>
                                 </div>
                                 <div class="uk-height-1-1">
-                                    <img src="images/photo.jpg" />
+                                    <img src="images/img_after.png" />
                                     <span class="service__card__label uk-position-top-right uk-position-small">After</span>
                                 </div>
                             </div>
