@@ -9,7 +9,7 @@
                 <h3 class="uk-h3 uk-text-center">Make your photos more beautiful and professional at unbeatable prices</h3>
                 <div class="uk-text-center item__20-10">DevotedEdit offers exceptional services - speed, control and quality for images.</div>
             </div>
-            <div class="item__40-20 uk-light" uk-slider="draggable: false;autoplay: true">
+            <div class="item__40-20 uk-light home__slider" uk-slider="draggable: false;autoplay: true">
 
                 <div class="uk-position-relative uk-visible-toggle" tabindex="-1">
 
@@ -20,11 +20,17 @@
                                     <div class="home__slider__card uk-card uk-background-default uk-border-rounded">
                                         <div class="beforeAfter uk-position-relative">
                                             <div class="uk-height-1-1">
-                                                <img src="images/img_before.png" />
+                                                <div class="uk-cover-container">
+                                                    <img src="images/img_before.png" uk-cover="">
+                                                    <canvas width="668" height="445"></canvas>
+                                                </div>
                                                 <span class="service__card__label uk-position-top-left uk-position-small">Before</span>
                                             </div>
                                             <div class="uk-height-1-1">
-                                                <img src="images/img_after.png" />
+                                                <div class="uk-cover-container">
+                                                    <img src="images/img_after.png" uk-cover="">
+                                                    <canvas width="668" height="445"></canvas>
+                                                </div>
                                                 <span class="service__card__label uk-position-top-right uk-position-small">After</span>
                                             </div>
                                         </div>
@@ -142,6 +148,7 @@
                         'images/brand/image75.png',
                         'images/brand/image76.png',
                     );
+                    rsort($data2);
                     foreach ($data2 as $value): ?>
                         <div>
                             <img src="<?= $value ?>" alt="">
@@ -198,7 +205,79 @@
 </div>
 <div class="home__block1 uk-section-small uk-background-norepeat uk-background-bottom-right" data-src="images/Maskgroup.png" uk-img>
     <div class="uk-container uk-container-large">
-        1
+        <div class="uk-grid-119-l uk-flex-middle" uk-grid>
+            <div class="uk-width-auto@s">
+                <img src="images/Frame23.png" alt="">
+            </div>
+            <div class="uk-width-expand">
+                <h2 class="uk-h2 home__title" style="color: #8500EE;">
+                    We are trusted by <br class="uk-visible@l"> the best
+                </h2>
+                <div class="home__txt item__20">Agents and many famous brands have trusted and used Luxuryphoto to enhance the quality of their images and products in the most professional way.</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="home__block2 uk-section">
+    <div class="uk-container uk-container-large">
+        <h2 class="uk-h2 home__title uk-text-center">
+            WHAT CLIENTS SAY ABOUT US
+        </h2>
+        <div class="home__txt uk-text-center item__20-10">Always brings professionalism and is trusted by leading companies around the world</div>
+        <div class="item__40-20" uk-slider="draggable: false">
+
+            <div class="uk-position-relative">
+
+                <div class="uk-slider-container">
+                    <ul class="uk-slider-items uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-3@m uk-grid-small uk-grid-20-l" uk-grid>
+                        <?php for ($i=1;$i<=6;$i++): ?>
+                        <li>
+                            <div class="beforeAfter uk-position-relative">
+                                <div class="uk-height-1-1">
+                                    <div class="uk-cover-container">
+                                        <img src="images/img_before.png" uk-cover="">
+                                        <canvas width="434" height="260"></canvas>
+                                    </div>
+                                    <span class="service__card__label uk-position-top-left uk-position-small">Before</span>
+                                </div>
+                                <div class="uk-height-1-1">
+                                    <div class="uk-cover-container">
+                                        <img src="images/img_after.png" uk-cover="">
+                                        <canvas width="434" height="260"></canvas>
+                                    </div>
+                                    <span class="service__card__label uk-position-top-right uk-position-small">After</span>
+                                </div>
+                            </div>
+                            <div class="uk-grid-12 item__20-15" uk-grid>
+                                <div class="uk-width-auto">
+                                    <div class="uk-cover-container">
+                                        <img src="images/lemanhhai_anhthe.jpg" alt="" uk-cover="">
+                                        <canvas width="120" height="120"></canvas>
+                                    </div>
+                                </div>
+                                <div class="uk-width-expand">
+                                    <div class="home__block2__title">Michel Martn - Photographer</div>
+                                    <div class="home__block2__txt item__8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</div>
+                                </div>
+                            </div>
+                        </li>
+                        <?php endfor; ?>
+                    </ul>
+                </div>
+
+                <div class="uk-hidden@s uk-light">
+                    <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                </div>
+
+                <div class="uk-visible@s">
+                    <a class="uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                </div>
+
+            </div>
+
+        </div>
     </div>
 </div>
 <div class="uk-position-relative uk-background-norepeat uk-background-center-center uk-background-cover" data-src="images/bg1.png" uk-img>
@@ -253,11 +332,11 @@
                     <div>
                         <div class="home__sendPhoto__box uk-card uk-card-default uk-padding-small">
                             <div class="home__sendPhoto__legend">Option of you</div>
-                            <div class="item__40-20 uk-grid-small uk-child-width-1-2 uk-grid">
+                            <div class="item__40-20 uk-grid-small uk-child-width-1-2 uk-grid" uk-grid>
                                 <?php
                                 $data = array('Add fire','Grass repari','TV Screen','Sky replacement','TV Black');
                                 foreach ($data as $k=>$v): ?>
-                                <label class="home__sendPhoto__checkboxLabel"><input class="uk-checkbox" type="checkbox"> <?= $v ?></label>
+                                    <label class="home__sendPhoto__checkboxLabel"><input class="uk-checkbox" type="checkbox"> <?= $v ?></label>
                                 <?php endforeach; ?>
                             </div>
                             <div class="uk-flex-middle item__40-20 uk-grid-small" uk-grid>

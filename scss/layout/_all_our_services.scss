@@ -38,7 +38,7 @@
       line-height: 12px;
       color: #262626;
       text-transform: uppercase;
-      .uk-slider &{
+      .home__slider &{
         font-size: 14px;
         min-height: 32px;
       }
@@ -63,7 +63,7 @@
 }
 .beforeAfter{
   img{
-    object-fit: cover;
-    height: 100%;
+    //object-fit: cover;
+    //height: 100%;
   }
 }
