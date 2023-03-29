@@ -183,7 +183,8 @@
       &__number{
         color: #262626;
         line-height: 1;
-        font-size: 66px;
+        //font-size: 66px;
+        @include fluidx(66px,56px,font-size);
         font-weight: 600;
       }
       &__txtReview{
