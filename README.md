@@ -11,3 +11,5 @@ https://themes.cathtmlcss.net/2023/03/pts/virtualstaging_detail.php
 https://themes.cathtmlcss.net/2023/03/pts/virtualstaging_orderpage.php
 
 https://themes.cathtmlcss.net/2023/03/pts/removeitem_detail.php
+
+https://themes.cathtmlcss.net/2023/03/pts/removeitem_orderpage.php

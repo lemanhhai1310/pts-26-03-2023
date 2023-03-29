@@ -3,7 +3,16 @@
 
   }
   &__table{
-    border-bottom: 1px solid #EEEEEE;
+    tbody{
+      tr{
+        &:not(:last-child){
+          border-bottom: 1px solid #EEEEEE;
+        }
+        &:first-child{
+          border-bottom: 1px solid #EEEEEE;
+        }
+      }
+    }
     tr{
       th{
         text-transform: inherit;
