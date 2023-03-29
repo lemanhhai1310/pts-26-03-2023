@@ -12,7 +12,7 @@
                         <div class="beforeAfter uk-position-relative">
                             <div class="uk-height-1-1">
                                 <div class="uk-cover-container">
-                                    <img src="images/img_before.png" uk-cover="">
+                                    <img src="images/Rectangle140239.png" uk-cover="">
                                     <canvas width="1920" height="667"></canvas>
                                 </div>
                                 <span class="service__card__label uk-position-top-left uk-position-medium">Before</span>

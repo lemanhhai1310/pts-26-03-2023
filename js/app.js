@@ -18,7 +18,7 @@ const app = {
 
         const sidebarSticky = () => {
             if (sidebar){
-                const h_header = header ? header.offsetHeight + 20 + 'px' : 0
+                const h_header = header ? header.offsetHeight + 15 + 'px' : 0
                 console.log('height Header', h_header);
                 UIkit.sticky(sidebar, {
                     'offset': h_header,
