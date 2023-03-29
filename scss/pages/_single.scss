@@ -49,6 +49,9 @@
     &__boxTotal{
       border-top: 10px solid #EEEEEE;
       padding-top: 11px;
+      .order__content &{
+        border-width: 1px;
+      }
       &__txt{
         color: #000000;
         //font-size: 28px;

@@ -1,0 +1,31 @@
+.order{
+  &__content{
+
+  }
+  &__table{
+    border-bottom: 1px solid #EEEEEE;
+    tr{
+      th{
+        text-transform: inherit;
+        color: #888888;
+        @include media-breakpoint-up('m'){
+          font-size: 16px;
+        }
+        font-weight: 500;
+        padding-bottom: 0;
+        &:not(:first-child){
+          text-align: center;
+        }
+      }
+      td{
+        color: #262626;
+        @include media-breakpoint-up('m'){
+          font-size: 16px;
+        }
+        &:not(:first-child){
+          text-align: center;
+        }
+      }
+    }
+  }
+}
