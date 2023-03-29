@@ -17,3 +17,5 @@ https://themes.cathtmlcss.net/2023/03/pts/removeitem_orderpage.php
 https://themes.cathtmlcss.net/2023/03/pts/virtualrenovation_detail.php
 
 https://themes.cathtmlcss.net/2023/03/pts/virtualrenovation_orderpage.php
+
+https://themes.cathtmlcss.net/2023/03/pts/floorplansredraw_detail.php
