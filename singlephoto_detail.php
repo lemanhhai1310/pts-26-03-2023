@@ -43,9 +43,143 @@
             <div class="uk-width-expand">
                 <div class="home__sendPhoto__titleSmall">single photo is an input image, an input image has an output image</div>
                 <h1 class="uk-h1 uk-margin home__sendPhoto__title">24 steps of editing</h1>
+                <div class="item__40-20 uk-grid-8 uk-child-width" uk-grid>
+                    <?php for ($i=1;$i<=24;$i++): ?>
+                    <div>
+                        <div class="single__card1 uk-card uk-border-rounded">
+                            <div class="uk-child-width-1-2@m uk-grid-collapse uk-grid-match" uk-grid>
+                                <div class="uk-flex-last@m">
+                                    <div class="beforeAfter uk-position-relative">
+                                        <div class="uk-height-1-1">
+                                            <div class="uk-cover-container">
+                                                <img src="images/img_before.png" uk-cover="">
+                                                <canvas width="383" height="255"></canvas>
+                                            </div>
+                                            <span class="service__card__label uk-position-top-left uk-position-small">Before</span>
+                                        </div>
+                                        <div class="uk-height-1-1">
+                                            <div class="uk-cover-container">
+                                                <img src="images/img_after.png" uk-cover="">
+                                                <canvas width="383" height="255"></canvas>
+                                            </div>
+                                            <span class="service__card__label uk-position-top-right uk-position-small">After</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-card-body uk-padding-small">
+                                        <div class="single__card1__title"><?= $i ?>. White balancing</div>
+                                        <div class="single__card1__txt item__20-15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <?php endfor; ?>
+                </div>
+                <div class="item__120-60 single__card2 uk-card uk-card-default">
+                    <div class="uk-card-header">
+                        <div class="single__card2__title">Customer reviews</div>
+                    </div>
+                    <div class="uk-card-body">
+                        <div class="uk-grid-small uk-grid-60-l uk-flex-middle" uk-grid>
+                            <div class="uk-width-auto@s">
+                                <div class="uk-text-center">
+                                    <div class="single__card2__rate__number">4.8</div>
+                                    <div class="item__10">
+                                        <div class="single__card2__rate uk-position-relative uk-display-inline-block" style="font-size: 17px;">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <div class="uk-position-center-left uk-display-inline-block uk-text-nowrap uk-overflow-hidden" style="width: 66%">
+                                                <i class="fa fa-star single__card2__rate__fa" aria-hidden="true"></i>
+                                                <i class="fa fa-star single__card2__rate__fa" aria-hidden="true"></i>
+                                                <i class="fa fa-star single__card2__rate__fa" aria-hidden="true"></i>
+                                                <i class="fa fa-star single__card2__rate__fa" aria-hidden="true"></i>
+                                                <i class="fa fa-star single__card2__rate__fa" aria-hidden="true"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item__10 single__card2__rate__txtReview">(1262 Review)</div>
+                                </div>
+                            </div>
+                            <div class="uk-width-expand">
+                                <div class="single__card2__rate__box1" uk-scrollspy="cls: scroolspy; delay: 500; repeat: true">
+                                    <?php for($index=5;$index > 0;$index-=1) {
+                                        $percent = rand(0,100); ?>
+                                        <div class="item__20 uk-flex-middle uk-grid-10 uk-grid-20-m" uk-grid>
+                                            <div class="uk-width-expand">
+                                                <div class="single__card2__rate__process uk-position-relative uk-border-pill" style="--percent: <?= $percent ?>%"></div>
+                                            </div>
+                                            <div class="uk-width-auto">
+                                                <div class="uk-position-relative" style="font-size: 17px;color: #cccccc;">
+                                                    <?php for ($j=1;$j<=5;$j++): ?>
+                                                        <i class="fa fa-star <?= ($j<=$index)?'single__card2__rate__fa':'' ?>" aria-hidden="true"></i>
+                                                    <?php endfor; ?>
+                                                    <div class="single__card2__rate__percent uk-position-center-right-out"><?= $percent ?>%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    <?php } ?>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item__20 single__card2 uk-card uk-card-default">
+                    <div class="uk-card-header">
+                        <div class="single__card2__title">Customer comments</div>
+                    </div>
+                    <div class="uk-card-body">
+                        <div>
+                            <?php for ($i=1;$i<=5;$i++): ?>
+                            <div class="single__card2__item">
+                                <div class="uk-grid-small uk-grid-20-l" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <div class="uk-cover-container uk-border-circle">
+                                            <img src="images/noimage.jpg" alt="" uk-cover="">
+                                            <canvas width="43" height="43"></canvas>
+                                        </div>
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <div class="single__card2__comment__name">Selena</div>
+                                        <div class="uk-flex-middle uk-grid-small uk-grid-20-l" uk-grid>
+                                            <div>
+                                                <div class="single__card2__rate uk-position-relative uk-display-inline-block" style="font-size: 13px;">
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <div class="uk-position-center-left uk-display-inline-block uk-text-nowrap uk-overflow-hidden" style="width: 66%">
+                                                        <i class="fa fa-star single__card2__rate__fa" aria-hidden="true"></i>
+                                                        <i class="fa fa-star single__card2__rate__fa" aria-hidden="true"></i>
+                                                        <i class="fa fa-star single__card2__rate__fa" aria-hidden="true"></i>
+                                                        <i class="fa fa-star single__card2__rate__fa" aria-hidden="true"></i>
+                                                        <i class="fa fa-star single__card2__rate__fa" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="single__card2__comment__time">1 week ago</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item__10 single__card2__comment__txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </div>
+                            </div>
+                            <?php endfor; ?>
+                        </div>
+                        <div class="item__40-20">
+                            <?php require "template-parts/layouts/pagination.php"; ?>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="uk-width-2-5@l">
-                <div class="home__sendPhoto__box uk-card uk-card-default uk-padding-small">
+                <div class="home__sendPhoto__box uk-card uk-card-default uk-padding-small sidebar">
                     <div class="home__sendPhoto__legend">select order information</div>
                     <div class="item__16 single__card__title">15$</div>
                     <div class="item__16 single__card__txtPrimary">($1 per photo,price charged for final output photo)</div>

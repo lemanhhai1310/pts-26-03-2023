@@ -1,0 +1,32 @@
+.pagination{
+  >li{
+    >a{
+      width: 34px;
+      height: 34px;
+      @include media-breakpoint-up('m'){
+        width: 40px;
+        height: 40px;
+      }
+      border-radius: 5px;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &:not(.uk-disabled){
+      >a{
+        color: #fff;
+        background: #2B9ED6;
+      }
+    }
+    &.uk-disabled{
+      >a{
+        border: 1px solid rgba(0, 0, 0, 0.2);
+      }
+    }
+    >span{
+      font-size: 18px;
+      color: #262626;
+    }
+  }
+}

@@ -14,6 +14,37 @@ const app = {
     render: function () {
         const app = x('#app');
         const header = x('.header');
+        const sidebar = x('.sidebar');
+
+        const sidebarSticky = () => {
+            if (sidebar){
+                const h_header = header ? header.offsetHeight + 20 + 'px' : 0
+                console.log('height Header', h_header);
+                UIkit.sticky(sidebar, {
+                    'offset': h_header,
+                    'start': 0.001 + 'px',
+                    'end': true,
+                });
+            }
+        }
+
+        sidebarSticky()
+
+        onresize = (event) => {
+            console.log('onresize')
+            sidebarSticky()
+        };
+
+        document.onscroll = function () {
+            let scrollTop = window.scrollY || document.documentElement.scrollTop;
+            console.log('scrollTop',scrollTop);
+            sidebarSticky()
+            if (scrollTop > 0){
+
+            }else {
+
+            }
+        }
     },
     start: function () {
         this.render();
