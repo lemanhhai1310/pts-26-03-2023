@@ -44,6 +44,10 @@
         &:not(:checked){
           background-color: #EEEEEE;
           border-color: #EEEEEE;
+          .video__sidebar__box &{
+            background-color: #fff;
+            border-color: #fff;
+          }
         }
         &:checked{
           border-color: #2B9ED6;

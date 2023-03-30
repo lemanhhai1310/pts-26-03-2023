@@ -1,0 +1,31 @@
+.video{
+  &__left{
+    &__title{
+      color: #2B9ED6;
+      line-height: 1;
+      font-size: 27px;
+      font-weight: 500;
+    }
+    &__txt{
+      color: #363636;
+      line-height: 1.75;
+      font-size: 18px;
+    }
+    &__coverImg{
+      border-radius: 10px;
+      box-shadow: 0px 2.54961px 20.3968px rgba(0, 0, 0, 0.12);
+    }
+  }
+  &__sidebar{
+    &__box{
+      background: #EFEFEF;
+      border-radius: 4px;
+      padding: 20px;
+    }
+    &__txt{
+      color: #2B9ED6;
+      font-size: 16px;
+      line-height: 1;
+    }
+  }
+}
