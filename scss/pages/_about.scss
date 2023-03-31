@@ -9,6 +9,21 @@
     color: #fff !important;
     @include fluidx(40px,33px,font-size);
     position: relative;
+    &:after{
+      content: "";
+      width: 0;
+      height: 0;
+      $x:13px;
+      border-left: #{$x} solid transparent;
+      border-right: #{$x} solid transparent;
+
+      border-top: #{$x} solid #{$primary-color};
+      top: calc(100% + 0px);
+      position: absolute;
+      z-index: 20;
+      left: 50%;
+      transform: translateX(-50%);
+    }
   }
   &__name{
     @include fluidx(40px,33px,font-size);
