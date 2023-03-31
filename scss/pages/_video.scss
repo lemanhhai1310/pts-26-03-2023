@@ -28,4 +28,42 @@
       line-height: 1;
     }
   }
+  &__order{
+    &__boxRight{
+      background: #EEEEEE;
+      border-radius: 4px;
+      padding: 20px;
+      &__txt1{
+        color: #888888;
+        font-size: 16px;
+        font-weight: 500;
+      }
+      &__txt2{
+        color: #262626;
+        font-size: 16px;
+      }
+      &__select{
+        background: #FAFAFA;
+        box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
+        border-radius: 4px;
+        line-height: 46px;
+        text-transform: inherit;
+        padding-left: 20px;
+        text-align: left;
+        color: #000000;
+        font-size: 14px;
+      }
+    }
+    &__divider{
+      &__txt{
+        color: #000000;
+        font-size: 16px;
+      }
+      background-image: none;
+      margin-bottom: 0;
+      &:before,&:after{
+        max-width: calc(35% - (50px / 2));
+      }
+    }
+  }
 }
