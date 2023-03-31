@@ -23,3 +23,9 @@ https://themes.cathtmlcss.net/2023/03/pts/floorplansredraw_detail.php
 https://themes.cathtmlcss.net/2023/03/pts/floorplansredraw_order2d.php
 
 https://themes.cathtmlcss.net/2023/03/pts/floorplansredraw_order3d.php
+
+https://themes.cathtmlcss.net/2023/03/pts/video_detail.php
+
+https://themes.cathtmlcss.net/2023/03/pts/video_orderpage.php
+
+https://themes.cathtmlcss.net/2023/03/pts/about.php
