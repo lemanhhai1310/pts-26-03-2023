@@ -1,0 +1,14 @@
+.gallery_detail{
+  &__title{
+    color: #262626;
+    font-size: 40px;
+    line-height: 1;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+  &__desc{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+    line-height: 1.75;
+  }
+}
