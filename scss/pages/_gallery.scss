@@ -1,0 +1,23 @@
+.gallery{
+  &__title{
+    color: #262626;
+    line-height: 1;
+    font-size: 60px;
+    font-weight: 600;
+  }
+  &__coverImg{
+    &__overlay{
+      background: linear-gradient(360deg, rgba(0, 0, 0, 0.67) 32.75%, rgba(0, 0, 0, 0) 100%);
+    }
+    &__title{
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 1;
+      color: #fff;
+    }
+    &__desc{
+      font-size: 16px;
+      line-height: 1.75;
+    }
+  }
+}

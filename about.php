@@ -38,7 +38,7 @@
     <div class="uk-container uk-container-large">
         <?php for ($i=1;$i<=3;$i++): ?>
         <div class="about__nhansuItem">
-            <div class="uk-child-width-1-2@l uk-grid-224-l" uk-grid>
+            <div class="uk-child-width-1-2@l uk-grid-224-l uk-grid" uk-grid>
                 <div class="uk-flex-last@l">
                     <div class="uk-cover-container">
                         <img src="images/noimage.jpg" alt="" uk-cover="">
