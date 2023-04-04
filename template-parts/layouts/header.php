@@ -27,6 +27,7 @@
 <body class="">
 <!--app-->
 <div id="app" class="uk-height-viewport uk-offcanvas-content uk-overflow-hidden uk-position-relative">
+<?php if (isset($isLogin) && !$isLogin): ?>
 <header class="header" uk-sticky>
     <nav class="header__top uk-navbar-container uk-navbar-transparent">
         <div class="uk-container uk-container-large">
@@ -100,3 +101,4 @@
         </div>
     </nav>
 </header>
+<?php endif; ?>

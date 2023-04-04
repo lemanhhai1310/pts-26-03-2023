@@ -62,7 +62,12 @@
       background-image: none;
       margin-bottom: 0;
       &:before,&:after{
-        max-width: calc(35% - (50px / 2));
+        .sign_in__card &{
+
+        }
+        &:not(.sign_in__card) &{
+          max-width: calc(35% - (50px / 2));
+        }
       }
     }
   }

@@ -1,0 +1,71 @@
+.sign_in{
+  &__bg{
+    $w: 390px;
+    min-height: #{$w};
+    @include media-breakpoint-up('m'){
+      border-radius: 0 1000px 1000px 0;
+      $w: 100vh;
+      min-height: #{$w};
+      width: calc(0.77 * (#{$w} + 0px)) !important;
+    }
+  }
+  &__card{
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-top: -20px;
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 20px 20px 0px 0px;
+    @include media-breakpoint-up('m'){
+      box-shadow: none;
+      padding-top: 120px;
+      padding-left: 8px;
+      padding-right: 8px;
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: 0;
+    }
+    &__title{
+      color: #262626;
+      font-weight: 600;
+      font-size: 24px;
+    }
+    &__btn{
+      border-radius: 8px;
+      line-height: 46px;
+      text-transform: inherit;
+      font-size: 16px;
+      &.uk-button-primary{
+        background: #2B9ED6;
+      }
+    }
+    &__label{
+      color: #000000;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    &__input{
+      background: #F8F4F1;
+      border-radius: 8px;
+      min-height: 48px;
+    }
+    &__txt{
+      color: #000000;
+      font-size: 16px;
+      a{
+        @extend .sign_in__card__link;
+        font-weight: 500;
+        font-size: 16px;
+      }
+    }
+    &__link{
+      color: #2B9ED6;
+    }
+    &__txtCheck{
+      font-size: 14px;
+      color: #262626;
+      a{
+        @extend .sign_in__card__link;
+      }
+    }
+  }
+}
