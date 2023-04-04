@@ -1,5 +1,6 @@
 <?php $data["title"] = "Home-Page"; ?>
 <?php $bodyClass = '' ?>
+<?php $isLogin = false ?>
 <?php require "template-parts/layouts/header.php"; ?>
 <div class="uk-position-relative uk-background-norepeat uk-background-center-center uk-background-cover" data-src="images/Rectangle2.png" uk-img>
     <div class="uk-overlay uk-overlay-primary uk-position-cover"></div>

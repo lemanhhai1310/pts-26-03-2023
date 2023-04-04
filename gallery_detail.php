@@ -1,5 +1,6 @@
 <?php $data["title"] = "Gallery Detail"; ?>
 <?php $bodyClass = '' ?>
+<?php $isLogin = false ?>
 <?php require "template-parts/layouts/header.php"; ?>
 <div class="uk-section-small">
     <div class="uk-container uk-container-large">

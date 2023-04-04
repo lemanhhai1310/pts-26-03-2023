@@ -1,5 +1,6 @@
 <?php $data["title"] = "Video detail"; ?>
 <?php $bodyClass = '' ?>
+<?php $isLogin = false ?>
 <?php require "template-parts/layouts/header.php"; ?>
 <div class="home__slider uk-position-relative uk-light" uk-slider="draggable: false;autoplay: true">
 

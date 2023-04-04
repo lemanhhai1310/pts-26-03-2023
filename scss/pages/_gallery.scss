@@ -2,7 +2,8 @@
   &__title{
     color: #262626;
     line-height: 1;
-    font-size: 60px;
+    //font-size: 60px;
+    @include fluidx(60px,51px,font-size);
     font-weight: 600;
   }
   &__coverImg{

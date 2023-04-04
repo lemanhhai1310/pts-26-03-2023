@@ -1,0 +1,29 @@
+.contact{
+  &__listAddress{
+    >li{
+      &:nth-child(n+2){
+        margin-top: 20px;
+      }
+      font-size: 16px;
+      strong{
+        color: #fff;
+        font-weight: 600;
+      }
+    }
+  }
+  &__card{
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+    @include media-breakpoint-up('m'){
+      margin-top: -304px;
+      //min-height: 886px;
+    }
+    &__title{
+      color: #000000;
+      line-height: .97;
+      //font-size: 32px;
+      @include fluidx(32px,27px,font-size);
+      font-weight: 600;
+    }
+  }
+}

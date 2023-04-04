@@ -1,5 +1,6 @@
 <?php $data["title"] = "Blog Detail"; ?>
 <?php $bodyClass = '' ?>
+<?php $isLogin = false ?>
 <?php require "template-parts/layouts/header.php"; ?>
 <div class="uk-section">
     <div class="uk-container uk-container-small">
