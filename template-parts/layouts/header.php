@@ -51,13 +51,13 @@
                             </div>
                         </li>
                         <li><a href="#">Price</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="about.php">About Us</a></li>
+                        <li><a href="contact.php">Contact</a></li>
                     </ul>
 
-                    <a class="uk-navbar-toggle header__top__link uk-visible@l" href="">Sign in</a>
+                    <a class="uk-navbar-toggle header__top__link uk-visible@l" href="sign_in.php">Sign in</a>
                     <div class="uk-navbar-item uk-visible@l">
-                        <a href="" class="uk-button uk-button-primary header__top__btn">Sign up</a>
+                        <a href="sign_up.php" class="uk-button uk-button-primary header__top__btn">Sign up</a>
                     </div>
 
                     <a class="uk-navbar-toggle uk-hidden@l uk-light" uk-navbar-toggle-icon href="#"></a>

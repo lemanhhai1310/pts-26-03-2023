@@ -1,0 +1,29 @@
+.my_account{
+  &__btn{
+    line-height: 46px;
+    text-transform: inherit;
+    border-radius: 8px;
+    min-width: 240px;
+    font-size: 16px;
+    font-weight: 500;
+    &.uk-button-primary{
+      background: #2B9ED6;
+    }
+    &.uk-button-default{
+      color: #E70000;
+      border-color: #E70000;
+    }
+  }
+  &__modal{
+    &__dialog{
+      box-shadow: 0px 1px 16px rgba(0, 0, 0, 0.12);
+      border-radius: 20px;
+      width: 432px;
+    }
+    &__title{
+      color: #262626;
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+}

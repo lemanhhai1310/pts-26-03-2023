@@ -29,10 +29,10 @@
                 <div>
                     <h4 class="uk-h4 footer__title">Explore</h4>
                     <ul class="footer__nav uk-nav uk-nav-default">
-                        <li><a href="">Blog</a></li>
-                        <li><a href="">About Us</a></li>
-                        <li><a href="">Contact</a></li>
-                        <li><a href="">Gallery</a></li>
+                        <li><a href="blog.php">Blog</a></li>
+                        <li><a href="about.php">About Us</a></li>
+                        <li><a href="contact.php">Contact</a></li>
+                        <li><a href="gallery.php">Gallery</a></li>
                     </ul>
                 </div>
                 <div class="uk-width-expand@l">

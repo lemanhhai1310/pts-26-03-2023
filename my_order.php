@@ -36,8 +36,8 @@
         <div class="item__40-20 uk-grid-20" uk-grid>
             <div class="uk-width-auto@m">
                 <ul class="uk-nav my_order__nav">
-                    <li class="uk-active"><a href="">My order</a></li>
-                    <li><a href="">My account</a></li>
+                    <li class="uk-active"><a href="my_order.php">My order</a></li>
+                    <li><a href="my_account.php">My account</a></li>
                 </ul>
             </div>
             <div class="uk-width-expand">
