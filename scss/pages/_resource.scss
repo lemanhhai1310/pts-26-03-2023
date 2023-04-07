@@ -1,0 +1,51 @@
+.resource{
+  &__title{
+    color: #262626;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 28px;
+    position: relative;
+    &:after{
+      content: "";
+      width: 120px;
+      height: 2px;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      background: #363636;
+      display: flex;
+    }
+  }
+  &__boxContent{
+    padding: 40px;
+    background: #EFEFEF;
+    border-radius: 8px;
+  }
+  &__btnDownload{
+    background: #086999;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: inherit;
+  }
+  &__nav{
+    >li{
+      >a{
+        justify-content: center;
+        height: 48px;
+        border-radius: 4px;
+        padding: 0;
+        color: #000000;
+        font-size: 16px;
+      }
+      &.uk-active{
+        >a{
+          background: #086999;
+          color: #fff;
+        }
+      }
+      &:nth-child(n+2){
+        margin-top: 10px;
+      }
+    }
+  }
+}
