@@ -4,7 +4,7 @@
 <?php require "template-parts/layouts/header.php"; ?>
 <div class="uk-grid-match uk-grid-collapse" uk-grid>
     <div class="uk-width-3-5@m">
-        <div class="sign_in__bg uk-background-norepeat uk-background-center-center uk-background-cover" data-src="images/unsplash_IH7wPsjwomc.png" uk-img></div>
+        <?php require "template-parts/layouts/bgLeft.php"; ?>
     </div>
     <div class="uk-width-expand">
         <div class="uk-container">

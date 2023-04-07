@@ -1,0 +1,28 @@
+.bgLeft{
+  &__section{
+    @include media-breakpoint-up('m'){
+      padding-top: 120px;
+    }
+    .uk-container{
+      @include media-breakpoint-up('m'){
+        padding-left: 120px;
+        padding-right: 120px;
+      }
+    }
+  }
+  &__title{
+    font-size: 60px;
+    @include fluidx(60px,40px,font-size);
+    text-align: center;
+    @include media-breakpoint-up('m'){
+      text-align: left;
+    }
+    line-height: 1;
+    font-family: 'Pacifico', cursive;
+    color: #5D6E5C;
+
+    //border: 2px solid #FFFFFF;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+    1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff, 2px 4px 4px rgba(0, 0, 0, 0.2);
+  }
+}
