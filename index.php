@@ -23,14 +23,14 @@
                                             <div class="uk-height-1-1">
                                                 <div class="uk-cover-container">
                                                     <img src="images/img_before.png" uk-cover="">
-                                                    <canvas width="668" height="445"></canvas>
+                                                    <canvas width="1440" height="959"></canvas>
                                                 </div>
                                                 <span class="service__card__label uk-position-top-left uk-position-small">Before</span>
                                             </div>
                                             <div class="uk-height-1-1">
                                                 <div class="uk-cover-container">
                                                     <img src="images/img_after.png" uk-cover="">
-                                                    <canvas width="668" height="445"></canvas>
+                                                    <canvas width="1440" height="959"></canvas>
                                                 </div>
                                                 <span class="service__card__label uk-position-top-right uk-position-small">After</span>
                                             </div>
@@ -237,14 +237,14 @@
                                 <div class="uk-height-1-1">
                                     <div class="uk-cover-container">
                                         <img src="images/img_before.png" uk-cover="">
-                                        <canvas width="434" height="260"></canvas>
+                                        <canvas width="1440" height="862"></canvas>
                                     </div>
                                     <span class="service__card__label uk-position-top-left uk-position-small">Before</span>
                                 </div>
                                 <div class="uk-height-1-1">
                                     <div class="uk-cover-container">
                                         <img src="images/img_after.png" uk-cover="">
-                                        <canvas width="434" height="260"></canvas>
+                                        <canvas width="1440" height="862"></canvas>
                                     </div>
                                     <span class="service__card__label uk-position-top-right uk-position-small">After</span>
                                 </div>
@@ -304,7 +304,7 @@
                             <div>
                                 <div class="uk-cover-container home__sendPhoto__itemPhoto uk-border-rounded">
                                     <img src="images/noimage.jpg" alt="" uk-cover="">
-                                    <canvas width="183" height="118"></canvas>
+                                    <canvas width="1440" height="928"></canvas>
                                     <a href="" class="uk-position-top-right uk-position-small uk-close" uk-close></a>
                                 </div>
                             </div>
@@ -371,7 +371,7 @@
                                             <div class="home__sendPhoto__boxRadio">
                                                 <div class="uk-cover-container home__sendPhoto__boxRadio__coverImg">
                                                     <img src="images/noimage.jpg" alt="" uk-cover="">
-                                                    <canvas width="164" height="110"></canvas>
+                                                    <canvas width="1440" height="965"></canvas>
                                                 </div>
                                                 <div class="home__sendPhoto__boxRadio__txt item__8 uk-flex uk-flex-center uk-flex-middle">
                                                     Strong view
@@ -404,7 +404,7 @@
                                                 <div class="home__sendPhoto__boxRadio">
                                                     <div class="home__sendPhoto__boxRadio__coverImg uk-cover-container">
                                                         <img src="images/noimage.jpg" alt="" uk-cover="">
-                                                        <canvas width="164" height="110"></canvas>
+                                                        <canvas width="1440" height="965"></canvas>
                                                     </div>
                                                     <div class="home__sendPhoto__boxRadio__txt item__8 uk-flex uk-flex-center uk-flex-middle">
                                                         sky color 1

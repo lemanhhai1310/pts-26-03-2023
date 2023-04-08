@@ -22,7 +22,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.10/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.10/dist/js/uikit-icons.min.js"></script>
-    <script src="assets/before-after-image-viewer/dist/beforeafter.jquery-1.0.0.min.js"></script>
+    <script src="assets/before-after-image-viewer/dist/beforeafter.jquery-1.0.0.js"></script>
     <script src="js/app.js?v=<?php echo(time()) ?>"></script>
 </head>
 <body class="">

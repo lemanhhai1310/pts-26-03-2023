@@ -11,14 +11,14 @@
                                 <div class="uk-height-1-1">
                                     <div class="uk-cover-container">
                                         <img src="images/img_before.png" uk-cover="">
-                                        <canvas width="317" height="212"></canvas>
+                                        <canvas width="1440" height="961"></canvas>
                                     </div>
                                     <span class="service__card__label uk-position-top-left uk-position-small">Before</span>
                                 </div>
                                 <div class="uk-height-1-1">
                                     <div class="uk-cover-container">
                                         <img src="images/img_after.png" uk-cover="">
-                                        <canvas width="317" height="212"></canvas>
+                                        <canvas width="1440" height="961"></canvas>
                                     </div>
                                     <span class="service__card__label uk-position-top-right uk-position-small">After</span>
                                 </div>

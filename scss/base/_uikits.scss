@@ -8,8 +8,13 @@
     }
   }
   &-container{
+    @include media-breakpoint-up('l'){
+      padding-left: 48px;
+      padding-right: 48px;
+    }
     &-large{
-      max-width: 1344px;
+      //max-width: 1344px;
+      max-width: none;
     }
   }
   &-height{
