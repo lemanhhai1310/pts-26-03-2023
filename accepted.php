@@ -46,7 +46,7 @@
                     <div>
                         <div class="uk-cover-container accepted__coverImg">
                             <img src="images/noimage.jpg" alt="" uk-cover="">
-                            <canvas width="237" height="153"></canvas>
+                            <canvas width="474" height="306"></canvas>
                         </div>
                     </div>
                     <?php endfor; ?>
@@ -173,7 +173,7 @@
             <div>
                 <div class="uk-cover-container accepted__coverImg">
                     <img src="images/noimage.jpg" alt="" uk-cover="">
-                    <canvas width="246" height="159"></canvas>
+                    <canvas width="492" height="318"></canvas>
                 </div>
                 <a href="" class="item__15 accepted__btn uk-width uk-button uk-button-primary">Need something changed</a>
             </div>

@@ -9,8 +9,8 @@
             <?php for ($i=1;$i<=9;$i++): ?>
             <div>
                 <div class="uk-cover-container uk-light">
-                    <img src="https://picsum.photos/436/436/?random=<?= $i ?>" alt="" uk-cover="">
-                    <canvas width="436" height="436"></canvas>
+                    <img src="https://picsum.photos/900/900/?random=<?= $i ?>" alt="" uk-cover="">
+                    <canvas width="900" height="900"></canvas>
                     <div class="gallery__coverImg__overlay uk-position-cover"></div>
                     <div class="uk-position-bottom uk-position-small">
                         <div class="gallery__coverImg__title">Virtual Staging</div>

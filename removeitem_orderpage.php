@@ -16,7 +16,7 @@
                             <div>
                                 <div class="virtualstaging__orderpage__coverImg uk-cover-container uk-border-rounded">
                                     <img src="images/noimage.jpg" alt="" uk-cover="">
-                                    <canvas width="470" height="302"></canvas>
+                                    <canvas width="940" height="604"></canvas>
                                 </div>
                                 <div class="virtualstaging__orderpage__txt1 uk-text-center item__15">High Res Image</div>
                             </div>
@@ -29,7 +29,7 @@
                                 <div>
                                     <div class="virtualstaging__orderpage__coverImg uk-cover-container uk-border-rounded">
                                         <img src="images/noimage.jpg" alt="" uk-cover="">
-                                        <canvas width="470" height="302"></canvas>
+                                        <canvas width="940" height="604"></canvas>
                                     </div>
                                     <div class="virtualstaging__orderpage__txt1 uk-text-center item__15">High Res Image</div>
                                 </div>
@@ -49,7 +49,7 @@
                                 <div class="uk-width-1-3@s">
                                     <div class="uk-cover-container uk-border-rounded">
                                         <img src="images/noimage.jpg" alt="" uk-cover="">
-                                        <canvas width="532" height="354"></canvas>
+                                        <canvas width="1064" height="708"></canvas>
                                     </div>
                                 </div>
                                 <div class="uk-width-expand">
@@ -99,7 +99,7 @@
                                     <div class="uk-width-1-3@s">
                                         <div class="uk-cover-container uk-border-rounded">
                                             <img src="images/noimage.jpg" alt="" uk-cover="">
-                                            <canvas width="532" height="354"></canvas>
+                                            <canvas width="1064" height="708"></canvas>
                                         </div>
                                     </div>
                                     <div class="uk-width-expand">

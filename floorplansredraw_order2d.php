@@ -15,7 +15,7 @@
                     <div class="home__sendPhoto__boxRadio">
                         <div class="uk-cover-container home__sendPhoto__boxRadio__coverImg">
                             <img src="images/noimage.jpg" alt="" uk-cover="">
-                            <canvas width="205" height="132"></canvas>
+                            <canvas width="410" height="264"></canvas>
                         </div>
                     </div>
                 </label>
@@ -30,7 +30,7 @@
                     <div class="home__sendPhoto__boxRadio">
                         <div class="uk-cover-container home__sendPhoto__boxRadio__coverImg">
                             <img src="images/noimage.jpg" alt="" uk-cover="">
-                            <canvas width="205" height="132"></canvas>
+                            <canvas width="410" height="264"></canvas>
                         </div>
                         <div class="home__sendPhoto__boxRadio__txt item__8 uk-flex uk-flex-center uk-flex-middle uk-grid-10" style="font-size: 16px !important;" uk-grid>
                             <div class="uk-width-expand uk-text-center">
@@ -59,7 +59,7 @@
             <div class="uk-width-1-3@l">
                 <div class="uk-cover-container home__sendPhoto__itemPhoto uk-border-rounded">
                     <img src="images/noimage.jpg" alt="" uk-cover="">
-                    <canvas width="462" height="308"></canvas>
+                    <canvas width="924" height="616"></canvas>
                     <a href="" class="uk-position-top-right uk-position-small uk-close" uk-close></a>
                 </div>
             </div>

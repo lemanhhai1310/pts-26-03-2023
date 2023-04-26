@@ -22,7 +22,7 @@
                         <div>
                             <div class="uk-cover-container home__sendPhoto__itemPhoto uk-border-rounded">
                                 <img src="images/noimage.jpg" alt="" uk-cover="">
-                                <canvas width="366" height="236"></canvas>
+                                <canvas width="732" height="472"></canvas>
                                 <a href="" class="uk-position-top-right uk-position-small uk-close" uk-close></a>
                             </div>
                         </div>
@@ -110,7 +110,7 @@
                                         <div class="home__sendPhoto__boxRadio">
                                             <div class="uk-cover-container home__sendPhoto__boxRadio__coverImg">
                                                 <img src="images/noimage.jpg" alt="" uk-cover="">
-                                                <canvas width="164" height="110"></canvas>
+                                                <canvas width="328" height="220"></canvas>
                                             </div>
                                             <div class="home__sendPhoto__boxRadio__txt item__8 uk-flex uk-flex-center uk-flex-middle">
                                                 Strong view
@@ -143,7 +143,7 @@
                                         <div class="home__sendPhoto__boxRadio">
                                             <div class="home__sendPhoto__boxRadio__coverImg uk-cover-container">
                                                 <img src="images/noimage.jpg" alt="" uk-cover="">
-                                                <canvas width="164" height="110"></canvas>
+                                                <canvas width="328" height="220"></canvas>
                                             </div>
                                             <div class="home__sendPhoto__boxRadio__txt item__8 uk-flex uk-flex-center uk-flex-middle">
                                                 sky color 1

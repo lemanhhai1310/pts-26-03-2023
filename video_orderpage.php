@@ -24,7 +24,7 @@
                             <div>
                                 <div class="uk-cover-container home__sendPhoto__itemPhoto uk-border-rounded">
                                     <img src="images/noimage.jpg" alt="" uk-cover="">
-                                    <canvas width="366" height="236"></canvas>
+                                    <canvas width="732" height="472"></canvas>
                                     <a href="" class="uk-position-center">
                                         <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <circle cx="18.7072" cy="18.2836" r="17.9181" fill="white" fill-opacity="0.8"/>

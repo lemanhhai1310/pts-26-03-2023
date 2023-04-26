@@ -14,14 +14,14 @@
                             <div class="uk-height-1-1">
                                 <div class="uk-cover-container">
                                     <img src="images/Rectangle140239.png" uk-cover="">
-                                    <canvas width="1920" height="667"></canvas>
+                                    <canvas width="3840" height="1334"></canvas>
                                 </div>
                                 <span class="service__card__label uk-position-top-left uk-position-medium">Before</span>
                             </div>
                             <div class="uk-height-1-1">
                                 <div class="uk-cover-container">
                                     <img src="images/img_after.png" uk-cover="">
-                                    <canvas width="1920" height="667"></canvas>
+                                    <canvas width="3840" height="1334"></canvas>
                                 </div>
                                 <span class="service__card__label uk-position-top-right uk-position-medium">After</span>
                             </div>
@@ -54,14 +54,14 @@
                                         <div class="uk-height-1-1">
                                             <div class="uk-cover-container">
                                                 <img src="images/img_before.png" uk-cover="">
-                                                <canvas width="383" height="255"></canvas>
+                                                <canvas width="766" height="510"></canvas>
                                             </div>
                                             <span class="service__card__label uk-position-top-left uk-position-small">Before</span>
                                         </div>
                                         <div class="uk-height-1-1">
                                             <div class="uk-cover-container">
                                                 <img src="images/img_after.png" uk-cover="">
-                                                <canvas width="383" height="255"></canvas>
+                                                <canvas width="766" height="510"></canvas>
                                             </div>
                                             <span class="service__card__label uk-position-top-right uk-position-small">After</span>
                                         </div>

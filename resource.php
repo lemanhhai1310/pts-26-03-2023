@@ -29,7 +29,7 @@
                             <div class="uk-border-rounded uk-overflow-hidden">
                                 <div class="uk-cover-container">
                                     <img src="https://picsum.photos/348/232/?random=<?= $i ?>" alt="" uk-cover="">
-                                    <canvas width="348" height="232"></canvas>
+                                    <canvas width="696" height="464"></canvas>
                                 </div>
                                 <a href="" class="uk-button resource__btnDownload uk-button-primary uk-width">Download</a>
                             </div>

@@ -38,14 +38,14 @@
                     <div class="uk-height-1-1">
                         <div class="uk-cover-container">
                             <img src="https://picsum.photos/662/441/?random=<?= $i ?>" uk-cover="">
-                            <canvas width="662" height="441"></canvas>
+                            <canvas width="1324" height="882"></canvas>
                         </div>
                         <span class="service__card__label uk-position-top-left uk-position-small">Before</span>
                     </div>
                     <div class="uk-height-1-1">
                         <div class="uk-cover-container">
                             <img src="https://picsum.photos/662/441/?random=<?= $i*12 ?>" uk-cover="">
-                            <canvas width="662" height="441"></canvas>
+                            <canvas width="1324" height="882"></canvas>
                         </div>
                         <span class="service__card__label uk-position-top-right uk-position-small">After</span>
                     </div>

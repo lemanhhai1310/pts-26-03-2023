@@ -14,14 +14,14 @@
                             <div class="uk-height-1-1">
                                 <div class="uk-cover-container">
                                     <img src="images/Rectangle140239.png" uk-cover="">
-                                    <canvas width="1920" height="667"></canvas>
+                                    <canvas width="3840" height="1334"></canvas>
                                 </div>
                                 <span class="service__card__label uk-position-top-left uk-position-medium">Before</span>
                             </div>
                             <div class="uk-height-1-1">
                                 <div class="uk-cover-container">
                                     <img src="images/img_after.png" uk-cover="">
-                                    <canvas width="1920" height="667"></canvas>
+                                    <canvas width="3840" height="1334"></canvas>
                                 </div>
                                 <span class="service__card__label uk-position-top-right uk-position-medium">After</span>
                             </div>
@@ -50,7 +50,7 @@
                         <div class="video__left__title"><?= $i ?>. Walkthrough Videos Editing</div>
                         <div class="video__left__coverImg uk-cover-container item__20">
                             <img src="images/noimage.jpg" alt="" uk-cover="">
-                            <canvas width="765" height="510"></canvas>
+                            <canvas width="1530" height="1020"></canvas>
                             <a href="" class="uk-position-center">
                                 <svg width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="34.44" cy="34.1635" r="33.5474" fill="white" fill-opacity="0.8"/>

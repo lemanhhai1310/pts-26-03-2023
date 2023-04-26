@@ -21,7 +21,7 @@
                     <div>
                         <div class="uk-cover-container">
                             <img src="images/noimage.jpg" alt="" uk-cover="">
-                            <canvas width="318" height="420"></canvas>
+                            <canvas width="636" height="840"></canvas>
                         </div>
                     </div>
                     <?php endfor; ?>
@@ -43,7 +43,7 @@
                 <div class="uk-flex-last@l">
                     <div class="uk-cover-container">
                         <img src="images/noimage.jpg" alt="" uk-cover="">
-                        <canvas width="570" height="302"></canvas>
+                        <canvas width="1140" height="604"></canvas>
                     </div>
                 </div>
                 <div>

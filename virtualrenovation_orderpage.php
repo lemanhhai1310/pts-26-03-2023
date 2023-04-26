@@ -15,7 +15,7 @@
                             <div>
                                 <div class="virtualstaging__orderpage__coverImg uk-cover-container uk-border-rounded">
                                     <img src="images/noimage.jpg" alt="" uk-cover="">
-                                    <canvas width="470" height="302"></canvas>
+                                    <canvas width="940" height="604"></canvas>
                                 </div>
                                 <div class="virtualstaging__orderpage__txt1 uk-text-center item__15">High Res Image</div>
                             </div>
@@ -28,7 +28,7 @@
                             <div>
                                 <div class="virtualstaging__orderpage__coverImg uk-cover-container uk-border-rounded">
                                     <img src="images/noimage.jpg" alt="" uk-cover="">
-                                    <canvas width="470" height="302"></canvas>
+                                    <canvas width="940" height="604"></canvas>
                                 </div>
                                 <div class="virtualstaging__orderpage__txt1 uk-text-center item__15">High Res Image</div>
                             </div>
@@ -44,7 +44,7 @@
                     <div class="virtualrenovation__item">
                         <div class="uk-cover-container home__sendPhoto__itemPhoto uk-border-rounded">
                             <img src="images/noimage.jpg" alt="" uk-cover="">
-                            <canvas width="366" height="236"></canvas>
+                            <canvas width="732" height="472"></canvas>
                             <a href="" class="uk-position-top-right uk-position-small uk-close" uk-close></a>
                         </div>
                     </div>
@@ -58,7 +58,7 @@
                                         <div class="item__15 home__sendPhoto__placeholder__txt">Upload description photo</div>
                                     </div>
                                 </div>
-                                <canvas width="318" height="212"></canvas>
+                                <canvas width="636" height="424"></canvas>
                             </div>
                         </div>
                     </div>
